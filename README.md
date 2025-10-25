@@ -1,42 +1,45 @@
 # React JS Learnings
 
-This repository contains my React learning journey along with a React + Vite project template.
+A concise collection of my React journey: a minimal React + Vite template plus short, day-by-day learning notes.
 
-## Structure
+## What's included
+- React-Vite-Template/ — Minimal starter (Vite, HMR, ESLint, optional React Compiler)
+- Daily-Learnings/ — Short, focused daily notes and small examples
+- README (this file) — Quick overview and usage
 
-- **[React-Vite-Template](React-Vite-Template/README.md)**: A minimal React + Vite setup with HMR, ESLint, and optional React Compiler integration.
-- **[Daily-Learnings](Daily-Learnings/README.md)**: My day-to-day learning notes, experiments, and small projects.
+## Quick Start (template)
+1. git clone https://github.com/SumitSnippetsHub/React-Js-Learnings.git
+2. cd React-Vite-Template
+3. npm install
+4. npm run dev
 
-## About React + Vite
-
-- Provides fast HMR for development.
+## Template (short)
+- Fast dev with Vite and HMR
 - Two official plugins:
-  - **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)** (uses Babel or oxc)
-  - **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)** (uses SWC)
-- React Compiler is not enabled by default (impacts build/dev speed).  
-  [Learn more about React Compiler](https://react.dev/learn/react-compiler/installation)
-- ESLint recommendations:
-  - For production, use TypeScript with `typescript-eslint`.
-  - [TS + ESLint integration](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
+  - @vitejs/plugin-react (Babel/oxc)
+  - @vitejs/plugin-react-swc (SWC)
+- React Compiler is optional — see https://react.dev/learn/react-compiler/installation
+- For production, prefer TypeScript + typescript-eslint
 
----
+## Daily Learnings (separate)
+Each day is a small folder in Daily-Learnings/ with a README summarizing:
+- Topic (e.g., Components, Props, State)
+- Key takeaways (3–5 bullets)
+- Short code example or exercise
 
-## How to Use
+Example — Day 1:
+- Topic: React basics
+- Key points: components, props, JSX
+- Exercise: simple functional greeting component
 
-1. Clone the repo:
+## Else / Other
+- Recommended local setup: Node.js 18+, VS Code, ESLint, Prettier
+- Build: npm run build; Preview: npm run preview
+- Measure the React Compiler impact before enabling in production
 
-```bash
-git clone https://github.com/SumitSnippetsHub/React-Js-Learnings.git
-Navigate to the template folder:
+## Contributing & License
+- Contributions welcome: add a new day under Daily-Learnings or improve the template.
+- License: MIT
+- Contact: https://github.com/SumitSnippetsHub
 
-cd React-Vite-Template
-npm install
-npm run dev
-
-## Explore the daily learnings here :)
-### Day 1 - React Basics
-- Learned about **components, props, and JSX**.
-- Created a simple functional component.
-
-
-
+Happy learning! 🚀
