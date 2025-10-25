@@ -1,17 +1,41 @@
-# React + Vite
+# React JS Learnings
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my React learning journey along with a React + Vite project template.
 
-Currently, two official plugins are available:
+## Structure
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **[React-Vite-Template](React-Vite-Template/README.md)**: A minimal React + Vite setup with HMR, ESLint, and optional React Compiler integration.
+- **[Daily-Learnings](Daily-Learnings/README.md)**: My day-to-day learning notes, experiments, and small projects.
 
-## React Compiler
+## About React + Vite
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Provides fast HMR for development.
+- Two official plugins:
+  - **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)** (uses Babel or oxc)
+  - **[@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc)** (uses SWC)
+- React Compiler is not enabled by default (impacts build/dev speed).  
+  [Learn more about React Compiler](https://react.dev/learn/react-compiler/installation)
+- ESLint recommendations:
+  - For production, use TypeScript with `typescript-eslint`.
+  - [TS + ESLint integration](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# React-Js-Learnings
+## How to Use
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/SumitSnippetsHub/React-Js-Learnings.git
+Navigate to the template folder:
+
+cd React-Vite-Template
+npm install
+npm run dev
+
+
+Explore daily learnings here :)
+
+### Day 1 - React Basics
+- Learned about **components, props, and JSX**.
+- Created a simple functional component.
