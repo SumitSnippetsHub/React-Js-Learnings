@@ -33,9 +33,10 @@ cd React-Vite-Template
 npm install
 npm run dev
 
-
-Explore daily learnings here :)
-
+## Explore the daily learnings here :)
 ### Day 1 - React Basics
 - Learned about **components, props, and JSX**.
 - Created a simple functional component.
+
+
+
