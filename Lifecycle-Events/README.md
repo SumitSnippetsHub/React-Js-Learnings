@@ -1,6 +1,6 @@
 In React, lifecycle events (or lifecycle methods) refer to the specific points in a component's life where you can execute code in response to changes or actions. These events help you manage tasks such as data fetching, subscriptions, and cleaning up resources.
 
-### Class-Based Lifecycle Methods
+## Class-Based Lifecycle Methods
 
 In class components, lifecycle methods are divided into three main phases:
 
